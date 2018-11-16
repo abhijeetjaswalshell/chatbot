@@ -10,9 +10,9 @@
 date_default_timezone_set('America/New_York');
 
 // General
-$projectName="STANLEY";
-$projectEmail="stanley@ideo.com";
-$projectPhoneNumber="YOUR PHONE NUMBER";
+$projectName="Abhijeet";
+$projectEmail="Abhijeet.jaswal@icloud.com";
+$projectPhoneNumber="9886783763";
 
 
 // Twilio API credentials
@@ -30,10 +30,10 @@ $slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_
 
 
 // Database Stuff
-$dbHost = "THE DATABASE HOST ADDRESS";
-$dbName = "THE DATABASE NAME";
-$dbUserName = "THE DATABASE USERNAME";
-$dbPassword = "THE DATABASE PASSWORD";
+$dbHost = "us-cdbr-iron-east-01.cleardb.net";
+$dbName = "heroku_afcdf5eb95ce901";
+$dbUserName = "b4f4a6d965530c";
+$dbPassword = "1ec32a5a";
 $dbTable = "THE NAME OF THE DATABASE TABLE";
 
 $dbConnection = mysqli_connect($dbHost, $dbUserName, $dbPassword,$dbName);
